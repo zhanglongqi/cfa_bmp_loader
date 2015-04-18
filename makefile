@@ -1,4 +1,4 @@
-CC=arm-linux-gnueabihf-gcc-4.7
+CC=arm-linux-gnueabihf-gcc
 AR=arm-linux-gnueabihf-gcc-ar-4.7
 CFLAGS=-Wall -std=c99
 

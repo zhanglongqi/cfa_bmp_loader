@@ -31,7 +31,7 @@ int SPIInit(int devNo, int bpw, int speedl) {
     mode = 0;
     memset(k, 0, 128);
 
-    sprintf(k, "/dev/spidev32766.%i", devNo);
+    sprintf(k, "/dev/spidev1.%i", devNo);
     if (access(k, F_OK) != -1)
         device = k;
     else

@@ -111,7 +111,7 @@ int main(int argc, char *argv[])
 	//unsigned char *bitmapData;
 	int ret=0;
 	
-	ret = init_tft(1);
+	ret = init_tft(0);
 	if(ret==-1)
 	{
 		printf("init error: %i\n", errno);
