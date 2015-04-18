@@ -1,5 +1,5 @@
-CC=/home/cfa/git/cfa_10036_buildroot/output/host/usr/bin/arm-none-linux-gnueabi-gcc
-AR=/home/cfa/git/cfa_10036_buildroot/output/host/usr/bin/arm-none-linux-gnueabi-ar
+CC=arm-linux-gnueabihf-gcc-4.7
+AR=arm-linux-gnueabihf-gcc-ar-4.7
 CFLAGS=-Wall -std=c99
 
 build: ./libs/libspi-driver.a ./libs/libcfaf128128b-0145t.a .sample-code
